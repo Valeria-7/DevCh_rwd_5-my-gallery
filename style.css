@@ -39,7 +39,7 @@ body {
 
 .info-blocks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   max-width: 348px;
   width: 100%;
 }
@@ -122,4 +122,65 @@ body {
 
 .footer-link:hover {
   color: #7e7b7b;
+}
+
+.username {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    margin-top: 25px;
+  }
+
+  .avatar {
+    width: 100px;
+  }
+
+  .name {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .location {
+    margin-bottom: 12px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .info-blocks {
+    max-width: 261px;
+  }
+
+  .info-block {
+    padding: 10px 0;
+    width: 78px;
+  }
+
+  .number {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .info-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .main {
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
 }
